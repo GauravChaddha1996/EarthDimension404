@@ -1,0 +1,6 @@
+1. First unzip the apk
+2. Now grep to see where to find the flag. You will see mentions of it in the classes.dex file.
+3. You will need to convert .dex to .jar or .java files. Find an online tool(http://apk-deguard.com, http://javadecompilers.com) or github repos to do that(dex2jar).
+4. Study the code to find the hint to go to file C137 in earth dimensions. 
+5. Get the hint to find the file names portal gun manual in the extracted apk folder.
+6. Finally find a password protected zip file. Use the password hint provided in C137.java file to decrypt the zip file and get your flag.
